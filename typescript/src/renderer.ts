@@ -1,5 +1,9 @@
 import { Shape } from "./shapes/shape"
 
+/* 
+ * newRenderer now takes in argument of type
+ * Shape instead of Rectange
+ */
 function newRenderer(shape : Shape) {
     return {
         draw() {
