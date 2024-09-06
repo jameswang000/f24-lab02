@@ -1,7 +1,10 @@
 package edu.cmu.cs.cs214.lab02;
 
 import edu.cmu.cs.cs214.lab02.shapes.Shape;
-
+/* 
+ * Renderer Constructor now takes in argument of type
+ * Shape instead of Rectange, shape variable set to private
+ */
 public class Renderer {
     private Shape shape;
     
