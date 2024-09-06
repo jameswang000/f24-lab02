@@ -1,5 +1,9 @@
 package edu.cmu.cs.cs214.lab02.shapes;
 
+/* 
+ * sidelen variable set to private
+ * for encapsulation
+ */
 public class Square implements Shape {
     private double sideLen;
 

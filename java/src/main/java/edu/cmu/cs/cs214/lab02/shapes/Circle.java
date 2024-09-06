@@ -1,5 +1,9 @@
 package edu.cmu.cs.cs214.lab02.shapes;
 
+/* 
+ * radius variable set to private
+ * for encapsulation
+ */
 public class Circle implements Shape {
     private double radius;
 
